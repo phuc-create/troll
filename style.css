@@ -32,6 +32,9 @@ body {
   font-size: 40px;
   line-height: 80px;
   letter-spacing: 2px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
 .model2 {
   font-size: 20px;
@@ -70,4 +73,24 @@ input[type="text"] {
   padding: 10px;
   width: 70%;
   font-size: 30px;
+}
+@media screen and (max-width: 448px) {
+  .okfine,
+  .yes,
+  .no {
+    font-size: 20px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    width: 99%;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .okfine,
+  .yes,
+  .no {
+    font-size: 18px;
+    padding: 7px;
+  }
 }
